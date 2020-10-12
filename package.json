@@ -1,0 +1,21 @@
+{
+  "name": "js-video-streamer",
+  "version": "1.0.0",
+  "description": "Small app for video stremoing tests",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test",
+    "dev": "nodemon src/index.js -e js, html, css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
